@@ -2,7 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  border: 0;
 }
 ul {
   list-style: none;
@@ -12,7 +11,6 @@ a {
   color: #aa9b84;
 }
 body {
-  margin: 0;
   font-family: Arial, Helvetica, "맑은 고딕", sans-serif;
 }
 .heder {
@@ -152,7 +150,7 @@ body {
 .visual {
   width: 100%;
   height: 600px;
-  background: url(../images/Spa.jpg) center/cover no-repeat;
+  background: url(../images/methode_times.jpg) center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -161,6 +159,7 @@ body {
 .visual p {
   font-size: 60px;
   /* background: rgba(255,255,255,0.5); */
+  cursor: pointer;
 }
 .visual2 p {
   font-size: 15px;
@@ -178,12 +177,11 @@ body {
   height: 30px;
   border: 1px solid #fff;
   text-align: center;
-}
-.visual3 p {
+  line-height: 30px;
 }
 .con {
   width: 1280px;
-  margin: 50px auto;
+  margin: 70px auto;
   height: 450px;
   display: flex;
   justify-content: space-between;
@@ -194,6 +192,7 @@ body {
   position: relative;
   height: 100%;
   flex-grow: 1;
+  cursor: pointer;
 }
 .con .left p {
 }
@@ -239,7 +238,7 @@ div.right h1 {
 
 .bottem {
   border-top: 20px solid #432f31;
-  background: url(../images/RooftopJapaneseDiner.jpg) left/cover no-repeat;
+  background: url(../images/6100.webp) left/cover no-repeat;
   margin-top: 200px;
   height: 600px;
 }
@@ -267,6 +266,60 @@ div.right h1 {
   color: #a38f7d;
   text-align: center;
   font-size: 20px;
+}
+.bottem_intro {
+  width: 100%;
+  height: 1000px;
+  background: #eeeeee;
+  /* border: 1px solid #000; */
+}
+.intro > ul {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+}
+.intro > ul > li {
+  width: 1200px;
+  height: 600px;
+  margin: 200px auto 0;
+  background: url(../images/Suite.jpg) center/cover;
+}
+.contents1 {
+  position: relative;
+  top: 300px;
+  width: 900px;
+  height: 300px;
+  margin: 100px auto 0;
+  /* margin-top: 400px; */
+  text-align: center;
+  /* border: 1px solid #000; */
+  background: #fff;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.contents1 h1 {
+  margin-top: 50px;
+  line-height: 100px;
+  color: #94887a;
+}
+.contents2 {
+  width: 150px;
+  height: 40px;
+  margin: auto;
+  color: #93908b;
+  line-height: 40px;
+  margin-top: 50px;
+  border: 1px solid #93908b;
+}
+.footer_top {
+  width: 100%;
+  height: 400px;
+}
+.footer_top p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 400px;
+  line-height: 20px;
 }
 .footer {
   width: 100%;
