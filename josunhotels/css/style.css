@@ -311,9 +311,18 @@ div.right h1 {
   margin-top: 50px;
   border: 1px solid #93908b;
 }
+.banner {
+  width: 2000px;
+  margin: auto;
+}
+.banner img {
+  margin-top: 200px;
+  height: 500px;
+  cursor: pointer;
+}
 .footer_top {
   position: relative;
-  top: 400px;
+  top: 200px;
   width: 100%;
   height: 600px;
   text-align: center;
@@ -348,7 +357,7 @@ div.right h1 {
   text-align: center;
 }
 .middle img {
-  width: 200px;
+  width: 160px;
   height: 60px;
   padding: 0 15px;
   opacity: 0.7;
