@@ -32,15 +32,12 @@
         right: 400px;
       }
       .top ul li a {
+        position: relative;
         font-size: 65px;
         float: left;
         margin: 20px;
         margin-top: 100px;
-      }
-      .top a {
-        text-align: center;
-        margin-left: 200px;
-        margin: 0 auto;
+        left: 1000px;
       }
       .mainbaner {
         height: 2000px;
@@ -51,29 +48,79 @@
       .mainbaner ul li {
         display: flex;
         position: absolute;
-        font-size: 110px;
+        font-size: 100px;
         color: #fff;
         top: 1200px;
         margin-left: 400px;
       }
-      .mainbaner .a {
+      .mainbaner .pink {
         color: #f0f;
         text-shadow: 5px 0 #fff, 0 5px #fff, -5px 0 #fff, 0 -5px #fff;
       }
-      .box{
-        margin: auto;
-        width: 80%;
+      .introduction {
+        position: relative;
+        width: 100%;
         height: 2000px;
-        border: 1px #000;
+        margin-top: 300px;
+        /* border: 1px solid #000; */
+        outline-style: dashed;
+        outline-color: #6F6BE3;
+        outline-width: 2px;
+        outline-offset: 100px;
         background: #fff;
+        line-height: 110px;
       }
-      .box_{
-       
+      .introduction h1 {
+        text-align: center;
+        font-size: 100px;
+        color: #6F6BE3;
+        margin-top: 300px;
+      }
+      .introduction h2 {
+        text-align: center;
+        font-size: 70px;
+        padding: 30px;
+      }
+      .line {
+        text-decoration-line: underline;
+        text-decoration-thickness: 0.75px;
+        text-decoration-color: #aaa;
+        text-underline-offset: 20px;
+      }
+      .introduction p {
+        text-align: center;
+        font-size: 50px;
+        padding: 10px;
+      }
+      .introduction img {
+        position: absolute;
+        right: 0;
+        top: 150px;
+        width: 1000px;
+        height: 1000px;
+        
+      }
+      .box {
+        /* width: 100%;
+        height: 2000px;
+        background: #000; */
+      }
+      .box {
+        width: 100%;
+        height: 2000px;
       }
       .box_ h1 {
         font-size: 150px;
-        float: left;
         padding: 300px;
+      }
+      .a {
+        color: #df6402;
+      }
+      .b {
+        color: #0049a1;
+      }
+      .c {
+        color: #f9be07;
       }
     </style>
   </head>
@@ -87,7 +134,9 @@
               <a href="#">Resume</a>
               <a href="#">About</a>
             </strong>
-            <img src="../josunhotels/images/Line Rabbit.png" alt="" />
+            <div align="left"> 
+            <img src="../josunhotels/images/Line Rabbit.png" alt="" /> 
+          </div>
           </li>
         </ul>
       </div>
@@ -97,20 +146,38 @@
         <li>
           <strong>
             <p>안녕하세요.</p>
-            <p class="a">소통하는</p>
+            <p class="pink">소통하는</p>
             <p>웹 디자이너 최지우입니다</p>
           </strong>
         </li>
       </ul>
     </div>
+    <div class="introduction">
+      <h1>Web Designer</h1>
+      <h2>#결단력 #신중함</h2>
+      <p> 안녕하세요. 최지우입니다.</p>
+       <p>지금까지 배움에만 멈추지 않고 정상에 다다를 수 있게 끝까지</p> 
+        <p class="line">노력하는 디자이너가 되고 싶습니다.</p>
+      </p>
+      <br />
+      <p>19.03 청주대학교 입학</p>
+      <p>22.03 창업동아리'치라다'활동</p>
+      <p>22.07 충청북도공예품대전입상</p>
+      <p>22.12 '19'회현대산업디자인대상전입상</p>
+      <p>23.02 청주대 공예디자인과 졸업/학점 3.88</p>
+      <p>23.06 UI/UX 반응형 웹디자인&웹퍼블리셔NCS과정수료</p>
+      <p>LICENSE:컴퓨터그래픽스운용기능사.웹디자인기능사 필기.GTQ1급.GTQ1급</p>
+      <img src="../josunhotels/images/자신.png" alt="">
+      </div>
+    </div>   
     <div class="box">
-        <div class="box_">
+      <div class="box_">
         <ul>
-        <li><h1>01</h1></li>
-        <li><h1>02</h1></li>
-        <li><h1>03</h1></li
+          <li><h1 class="a">01 web</h1></li>
+          <li><h1 class="b">02 web</h1></li>
+          <li><h1 class="c">03 web</h1></li>
         </ul>
-    </div>
+      </div>
     </div>
   </body>
 </html>
