@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: ;
+      }
+      a {
+        text-decoration: none;
+      }
+      ul {
+        list-style: none;
+      }
+      body {
+        font-family: Arial, Helvetica, "맑은 고딕", sans-serif;
+      }
+      .logo img {
+        width: 200px;
+        height: 100px;
+      }
+      section {
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        padding: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #000;
+      }
+      header {
+        width: 100%;
+        height: 70px;
+        background: #343436;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      header .logo {
+        position: relative;
+        max-width: 80px;
+      }
+      header ul {
+        position: relative;
+        display: flex;
+      }
+      header.ul.li {
+        list-style: none;
+      }
+      header ul li a {
+        display: inline-block;
+        color: #fff;
+        font-weight: 400;
+        margin-left: 40px;
+        text-decoration: none;
+      }
+      .imgBox {
+      
+      }
+      .content {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .content .textBox {
+        position: relative;
+        max-width: 600px;
+        height: 800px;
+        width: 100%;
+        border: 8px solid #e26407;
+        border-radius: 40px;
+        box-sizing: 200px;
+
+      }
+      .content .textBox h2 {
+        color: #fff;
+        opacity: 0.8;
+        font-size: 4em;
+        line-height: 1.4em;
+        font-weight: 500;
+      }
+      .content .textBox h2 span {
+        color: red;
+        font-size: 1.2em;
+        font-weight: 900;
+      }
+      .content .textBox p {
+        color: #333;
+      }
+      .content .textBox a {
+        display: inline-block;
+        margin-top: 10px 10px;
+        background: #e26407;
+        color: #fff;
+        border-radius: 40px;
+        font-weight: 200;
+        letter-spacing: 1px;
+        text-decoration: none;
+        font-size: 13px;
+      }
+      .content .imgBox {
+        width: 600px;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 50px;
+        margin-top: 50px;
+      }
+      .thumb {
+      }
+      .thumb li img {
+        max-width: 80px;
+      }
+      .thumb li {
+        list-style: none;
+        display: inline-block;
+        top: 800px;
+        margin: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+      }
+      .thumb li:hover {
+        transform: translateY(-15px);
+      }
+      .sci {
+        position: absolute;
+        top: 50%;
+        right: 30px;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .sci li a {
+        filter: invert(1);
+      }
+      .sci img {
+        max-width: 40px;
+      }
+      /* .circle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #df6402;
+        clip-path: circle(600px at right 800px);
+        opacity: 0.4;
+      }
+      .circle:focus {
+        outline: 0;
+      } */
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="circle"></div>
+      <header>
+        <a href="#"
+          ><img src="../josunhotels/images/Burger King logo.png" class="logo"
+        /></a>
+        <ul>
+          <li>
+            <a href="#">Home</a></strong>
+          </li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>It's not just hamburger<br />It's <span>Burger King</span></h2>
+          <p>
+            Every day, more than 11 million guests visit Burger King restaurants around the world. 
+            And they do so because our restaurants are known for serving high-quality, great-tasting, and affordable food. Founded in 1954, Burger King is the second largest fast food hamburger chain in the world. The original Home of the Whopper, our commitment to premium ingredients, signature recipes, and family-friendly dining experiences is what has defined our brand for more than 50 successful years.
+          </p>
+          <a href="#">Lear More</a>
+        </div>
+        <div class="imgBox">
+        <img src="../josunhotels/images/JUMPING BURGER.png" alt="" />
+        </div>
+      </div>
+      <ul class="thumb">
+        <li><img src="../josunhotels/images/Burger King_  Ordering.png" alt="" /></li>
+        <li><img src="../josunhotels/images/Burger King’s Large.png" alt="" /></li>
+        <li><img src="../josunhotels/images/Whopper.png" alt="" /></li>
+      </ul>
+      <ul class="sci">
+        <li>
+          <a href="#"
+            ><img src="../josunhotels/images/로고/facebook.svg" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="../josunhotels/images/로고/instagram.svg" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="../josunhotels/images/로고/twitter.svg" alt=""
+          /></a>
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
