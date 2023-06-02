@@ -1,0 +1,38 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+li{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+body {
+    font-family: Arial, Helvetica,"맑은 고딕", sans-serif;
+}
+.gnb {
+    height: 900px;
+    background: url(../images/Rooftop\ Japanese\ Diner\ \(1\).jpg no-repeat);
+    margin-top: 70px;
+
+}
+.gnb ul li{
+    float: left;
+}
+.main img {
+    width: 1280px;
+    margin: 0 auto;
+}
+.main p {
+    color: #000;
+    font-size: 40px;
+}
+.gnb {
+     width: 1280px;
+     
+     text-align: center;
+}
